@@ -1,0 +1,60 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	height: 100vh;
+}
+.okcircle{
+	width: 8rem;
+	height: 8rem;
+	border:1px solid #98d0e9;
+	border-radius: 50%;
+	line-height: 8rem;
+	text-align: center;
+	margin:0 auto;
+	font-size: 16px;
+	color:#000;
+	margin-top:10%;
+}
+.tip{
+	text-align: center;
+	font-size: 16px;
+	color:#000;
+	margin-top: 3rem;
+}
+.tiptime{
+	margin-top: 1rem;
+}
+.tipplace{
+	margin-top: 1rem;
+}
+.saoma{
+	margin-top: 20%;
+	text-align:center;
+	vertical-align: middle;
+	margin-bottom: 10%;
+}
+.saoma span{
+	height:100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.saoma img{
+	vertical-align: middle;
+	border:0px;
+	width: 5rem;
+	height: 5rem;
+	margin-left: 1rem;
+}
+.footer{
+	text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+ @media screen and (max-width: 375px) {
+
+}

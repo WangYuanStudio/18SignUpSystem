@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>网园-报名表后台管理</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../assets/js/jquery-1.11.3.min.js"></script>
+	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/admin.css">
+	<link rel="stylesheet" type="text/css" href="../assets/icon/iconfont.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="searchCon same">
+					<input type="text" id="search" placeholder="搜索">
+					<i class="iconfont icon-sousuo"></i>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col kindhead">
+				<div class="bread same">
+					<span class="samekind On" id="qb">全部</span>
+					<span class="samekind" id="sjb">设计部</span>
+					<span class="samekind" id="ymb">页面部</span>
+					<span class="samekind" id="bcb">编程部</span>
+					<span class="samekind" id="wmb">文秘部</span>
+					<span class="samekind" id="yms">已面试</span>
+					<span class="samekind" id="wms">未面试</span>
+				</div>
+				<div class="sumnum">
+					<div id="howmany">共xxx人</div>
+					<div class="sumsex">
+						<div class="samePCon">
+							<p id="sexman" class="samep">男 10</p>
+							<p id="sexgirl" class="samep">女 10</p>		
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="searchinfo" style="display:none;">
+				<div class="col searchreturn" style="font-size:14px;">
+					搜索内容:xxx
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col listbody" id="listbody">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col clickmore1">
+				<i class="iconfont icon-jiantou1" id="Sosuodownmore"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col clickmore">
+				<i class="iconfont icon-jiantou1" id="otherdownmore"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<p id="bottomword">已经到底了YaHO!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<p id="searchnone">找不到相关信息(ಥ﹏ಥ)</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/admin.js"></script>
+</body>
+</html>
